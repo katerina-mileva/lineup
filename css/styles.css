@@ -1,5 +1,6 @@
 /* Importing a Google Font */
 @import url('https://fonts.googleapis.com/css2?family=Aclonica&family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Aclonica&display=swap');
 
 /* Changing the main font and background colour */
 
@@ -44,6 +45,10 @@ footer a:hover {
 .w-80 {
 }
 
-.custom-h1 {
-	font-family: "Aclonica", sans-serif, !important;
+.aclonica-h3 {
+	font-family: "Aclonica", sans-serif;
+	font-weight: 400;
+	font-style: normal;
 }
+
+
