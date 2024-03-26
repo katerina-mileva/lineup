@@ -99,3 +99,11 @@ footer a:hover {
 	bottom: initial;
 	top: 50%;
 }
+
+/*I tried making a custom class for the cards to edit the corner radius :( */
+.card {
+	padding: 1.5 .5em 5.em !important;
+	border-bottom-left-radius: 2 em !important;
+	border-bottom-right-radius: 2 em !important;
+	box-shadow: 0 10px 10 px !important; 
+}
