@@ -123,4 +123,47 @@ footer a:hover {
 	border-radius: 20px
 }
 
+/*navbar customization using overriding the bootstrap css */
+.navbar{
+	background-color: #c09fc9;
+	height: 80px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	margin-left: 90px;
+	margin-right: 90px;
+	border-radius: 20px;
+}
+
+.navbar-toggler{
+	border: none;
+	color: #330c3d;
+	height: 80px;
+}
+
+.nav-link {
+	color: #330c3d;
+	position: relative;
+}
+.nav-lin:hover, .nav-link.active{
+	color: #330c3d;
+}
+.nav-link:before{
+	content:"";
+	position: absolute;
+	bottom: 0;
+	left: 50%;
+	transform: translateX(-50%);
+	width: 0;
+	height: 2px;
+	background-color: #330c3d;
+	visibility: hidden;
+	transition: 0.3s ease-in-out;
+}
+
+.nav-link:hover::before, .nav-link:active::before {
+	width: 100%;
+	visibility: visible;
+}
+
+
 
