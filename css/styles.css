@@ -95,9 +95,9 @@ footer a:hover {
 
 /*I used a YouTube tutorial to help me center the text in the Hero section: https://www.youtube.com/watch?v=DGDYRQe4FXA*/
 .carousel-caption {
-	transform: translate(-0%);
+	transform: translate(-11%);
 	bottom: initial;
-	top: 50%;
+	top: 30%;
 }
 
 /*I tried making a custom class for the cards to edit the corner radius :( */
@@ -107,3 +107,20 @@ footer a:hover {
 	border-bottom-right-radius: 2 em !important;
 	box-shadow: 0 10px 10 px !important; 
 }
+
+/*button customization using overriding the bootstrap css */
+.btn-primary {
+	background-color: #df3838;
+	border-color: #df3838;
+	color: #f9f8f1;
+	border-radius: 20px
+}
+
+.btn-primary:hover {
+	background-color: #c09fc9;
+	border-color: #c09fc9;
+	color: #330c3d;
+	border-radius: 20px
+}
+
+
