@@ -93,6 +93,14 @@ footer a:hover {
 
 .card{
 	background: none;
+	box-shadow: 10px 10px 10px black;
+	border-bottom-left-radius: 20px;
+	border-bottom-right-radius: 20px;
+	transition: all 0.2s;
+}
+
+.card:hover {
+	transform: scale(1.15)
 }
 
 .card-body{
@@ -153,8 +161,9 @@ footer a:hover {
 	color: #330c3d;
 	position: relative;
 }
-.nav-lin:hover, .nav-link.active{
+.nav-link:hover, .nav-link.active{
 	color: #330c3d;
+	transform: scale(1.15);
 }
 .nav-link:before{
 	content:"";
