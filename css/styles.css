@@ -179,15 +179,25 @@ footer a:hover {
 }
 
 .header {
-	background-image: url("../images/landing-page/hero-section-background.png");
+	background-image: url("../images/landing-page/hero-section-backdrop.jpg");
 	height: 750px;
 	width: 1918px;
 	background-position: center;
+	background-size: cover;
 }
 
 .section-background {
-	background-image: url("../images/landing-page/venues-background.jpg");
+	background-image: url("../images/landing-page/hero-section-backdrop.jpg");
 	background-size:cover;
-	background-blend-mode: multiply;
+	border-radius: 20px;
 }
 
+.icon-margin{
+	margin-bottom: 10px;
+}
+
+.hero-section-content{
+	margin-left: 100px;
+	margin-top: 160px;
+	margin-bottom: 160px;
+}
