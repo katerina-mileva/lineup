@@ -117,14 +117,6 @@ footer a:hover {
 	top: 30%;
 }
 
-/*I tried making a custom class for the cards to edit the corner radius :( */
-.card {
-	padding: 1.5 .5em 5.em !important;
-	border-bottom-left-radius: 2 em !important;
-	border-bottom-right-radius: 2 em !important;
-	box-shadow: 0 10px 10 px !important; 
-}
-
 /*button customization using overriding the bootstrap css */
 .btn-primary {
 	background-color: #df3838;
@@ -149,6 +141,9 @@ footer a:hover {
 	margin-left: 90px;
 	margin-right: 90px;
 	border-radius: 40px;
+}
+.navbar-expand-lg{
+	box-shadow: 10px 10px 10px black;
 }
 
 .navbar-toggler{
@@ -190,5 +185,9 @@ footer a:hover {
 	background-position: center;
 }
 
-
+.section-background {
+	background-image: url("../images/landing-page/venues-background.jpg");
+	background-size:cover;
+	background-blend-mode: multiply;
+}
 
