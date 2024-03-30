@@ -179,11 +179,17 @@ footer a:hover {
 }
 
 .header {
-	background-image: url("../images/landing-page/hero-section-backdrop.jpg");
+	background-image: url("../images/landing-page/venues-background.jpg");
 	height: 750px;
 	width: 1918px;
 	background-position: center;
 	background-size: cover;
+}
+
+.hero-section-background {
+	background-image: url("../images/landing-page/venues-background.jpg");
+	background-size:cover;
+	border-radius: 0px;
 }
 
 .section-background {

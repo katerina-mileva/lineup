@@ -26,7 +26,7 @@
 	
     <!-- Navigation bar, adapted from https://getbootstrap.com/docs/5.1/components/navbar/ -->
     <nav class="navbar navbar-expand-lg lilac-background fixed-top col-xl-10.5" width="1595px" height="141px">
-      <div class="container-fluid navbar" align="right">
+      <div class="container-fluid">
         <a class="navbar-brand" href="index.html">
           <img src="images/logo-header.png" width="100" alt="LineUp">
         </a>
@@ -39,15 +39,7 @@
               <a class="nav-link" href="example.html">Community</a>
             </li>
             <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-              Concerts&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; </a>
-              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <li><a class="dropdown-item" href="hero.html">Hero Section</a></li>
-                <li><a class="dropdown-item" href="carousel.html">Carousel</a></li>
-                <li><hr class="dropdown-divider"></li>
-                <li><a class="dropdown-item" href="two-columns.html">Two-column Layout</a></li>
-                <li><a class="dropdown-item" href="cards.html">Cards</a></li>
-              </ul>
+              <a class="nav-link" href="example.html">Concerts</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="https://buas-media-interactive.github.io/prj4-guide/" target="_blank">Venues</a>
@@ -64,41 +56,24 @@
 	  
  
     <!-- Start of main placeholder in landing page -->
-	<!-- For our hero section we use Bootstrap Carrousel template, but only the first slide-->
+	<!-- For our hero section we use Hero Section from the template-->
   <main>
-	 <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
-      <div class="carousel-inner">
-        <div class="carousel-item active">
-          <img src="images/landing-page/venues-background.jpg" class="w-100 h-50" alt="People at a Concert">
-          <div class="carousel-caption align-content-center">
-			  <div class="col-xl-6">
-            <h1 class="aclonica-h3 red-text" align="left"> You don’t have to rock and roll alone anymore! </h1>
-            <p align="left">Everyone has been through the struggle of finding people to go to concerts with. In LineUp you can connect with other others who will go to the same concert.</p>
-			<div class="d-grid gap-2 d-md-flex justify-content-md-start">
-					   <button class="btn btn-primary me-md-2" type="button">Join the Community</button>
-			    </div>
-			
-			  </div>
-          </div>
-        </div>
-	</div>
-</div>
-	<!-- end of hero section-->
-	  <br>
-    <br>
-	  <br>
-	   <header class=" section-background py-2 py-md-4 py-lg-5 text-center container-fluid text-light ">
+	<header class="py-2 py-md-4 py-lg-5 text-center container-fluid text-light  hero-section-background">
       <div class="row justify-content-xl-start">
-        <div class="col-md-4 col-lg-6 justify-content-sm-start hero-section-content" align="left" position="start">
+        <div class="justify-content-sm-start hero-section-content" align="left" position="start">
           <h1 class="aclonica-h3 red-text" align="left">You don’t have to rock and roll alone anymore!</h1>
           <p align="left">Everyone has been through the struggle of finding people to go to concerts with. In LineUp you can connect with other others who will go to the same concert.</p>
            <button class="btn btn-primary me-md-2" type="button">Join the Community</button>
         </div>
       </div>
     </header>
+<!-- end of hero section-->
+	  <br>
+	  <br>
+	  <br>
 <!-- A section with Upcoming Concerts-->
 	<!-- Section Heading and Button-->
-	    <div class="container align-content-center margin-sections">
+	    <div class="container align-content-center">
 			<div class="row justify-content-between">
 			   <div class="col-5">
 				   <h2 class="aclonica-h3 red-text lilac-text">Upcoming Concerts</h2>
@@ -115,34 +90,34 @@
     <br>
 	 
   	<!-- The cards for the concerts-->
-    <div class="container align-content-center">
-		<div class="row">
-		  <div class="col-md-3">
-			  <div class="card" style="width: 18rem;">
+    <div class="container">
+		<div class="row g-4">
+		  <div class="col-6 col-md-6 col-lg-3">
+			  <div class="card">
 			    <img src="images/landing-page/metallica.jpg" class="card-img-top" alt="AI generated image of Metallica">
 				  <div class="card-body red-background">
 					<h3 class="card-text aclonica-h3 white-text">Metallica</h3>
 				  </div>
 			  </div>
 		  </div>
-		  <div class="col-md-3">
-			  <div class="card" style="width: 18rem;">
+		  <div class="col-6 col-md-6 col-lg-3">
+			  <div class="card">
 			    <img src="images/landing-page/greta-van-fleet.jpg" class="card-img-top" alt="AI generated image of Greta van Fleet">
 				  <div class="card-body red-background">
 				    <h3 class="card-text aclonica-h3 white-text">Greta van Fleet</h3>
 				  </div>
 			  </div>
 		  </div>
-		  <div class="col-md-3">
-			  <div class="card" style="width: 18rem;">
+		  <div class="col-6 col-md-6 col-lg-3">
+			  <div class="card">
 			    <img src="images/landing-page/guns-n-roses.jpg" class="card-img-top" alt="AI generated image Guns N Roses">
 				  <div class="card-body red-background">
 				    <h3 class="card-text aclonica-h3 white-text">Guns N Roses</h3>
 				  </div>
 			  </div>
 		  </div>
-		  <div class="col-md-3">
-			  <div class="card" style="width: 18rem;">
+		  <div class="col-6 col-md-6 col-lg-3">
+			  <div class="card">
 			    <img src="images/landing-page/ac-dc.jpg" class="card-img-top" alt="AI generated picture of ACDC">
 				  <div class="card-body red-background">
 				    <h3 class="card-text aclonica-h3 white-text">AC/DC</h3>
@@ -168,10 +143,10 @@
 		  </div>
 	  <div class="container align-content-center">
 		   <div class="row justify-content-between">
-		   <div class="col-5">
+		   <div class="col-xl-6 col-sm-5">
 			   <h2 class="aclonica-h3 red-text lilac-text">Learn More About the Venues</h2>
 		   </div>
-		   <div class="col-4">
+		   <div class="col-xl-6 col-sm-2">
 			   <div class="d-grid gap-2 d-md-flex justify-content-md-end">
 				   <button class="btn btn-primary me-md-2" type="button">See More</button>
 			   </div>
@@ -184,14 +159,14 @@
     <!-- Venues Benefits-->
 	  <div class="container background-image"> 
 		  <div class="row align-items-start">
-			<div class="col-4">
+			<div class="col-xl-4 col-sm-12">
 				<ul>
 					<img src="images/landing-page/calendar-icon.svg" alt="calendar icon" class="icon-margin">
 				  <h3 class="aclonica-h3 red-text">Location</h3>
 				  <p class="white-text">With Good Reads you can not only keep track of the books that you read but also set goals for how many books you want to read in a certain period of time</p>
 				</ul>
 			</div>
-			<div class="col-4">
+			<div class="col-xl-4 col-sm-12">
 				<ul>
 					<img src="images/landing-page/checkmark-icon.svg" alt="checkmark icon" class="icon-margin">
 					<br>
@@ -199,7 +174,7 @@
 					<p class="white-text">Are you wondering if your bag is too big to bring? Whether you can bring an umbrella or not? We’ve got you covered! We have gathered lists of things that you are allowed to take.</p>
 				</ul>
 			</div>
-			<div class="col-4">
+			<div class="col-xl-4 col-sm-12">
 				<ul>
 					<img src="images/landing-page/bookmark-icon.svg" alt="bookmark icon" class="icon-margin">
 					<br>
@@ -234,33 +209,35 @@
 		</div>
 	  </div>
 	</div>
-	<footer class="bg-dark text-white py-4">
-  <div class="container">
-    <div class="row">
-      <div class="col-xl-2">
-        <brand>
-			<a href="index.html"> <img src="images/lineup-logo-footer.svg"></a>
-		  </brand>
-		  <br>
-		  <br>
-        <p>© 2024 LineUp</p>
-      </div>
-      <div class="col-md-6">
-        
-      </div>
-    </div>
-    <div class="row">
-		<h5>Contact Us</h5>
-        <ul class="list-unstyled">
-          <li>Email: example@example.com</li>
-          <li>Phone: 123-456-7890</li>
-          <li>Address: 123 Street, City, Country</li>
-        </ul>
-      <div class="col-md-12 text-center">
-        <p>&copy; 2024 Your Website. All rights reserved.</p>
-      </div>
-    </div>
-  </div>
+	  
+	  
+	<footer class="bg-black text-white py-4 align-content-center">
+	  <div class="container" align="center">
+		<div class="row">
+		  <div class="col-xl-2">
+			<brand>
+				<a href="index.html"> <img src="images/lineup-logo-footer.svg" width="100" alt="LineUp Logo Footer"></a>
+			  </brand>
+			  <br>
+			  <br>
+			</div>
+			<div class="row align-items-center">
+				<ul class="list-unstyled d-flex align-items-center">
+				  <li>
+					<a href="https://www.instagram.com/lineup_brand/" target="_blank">
+					  <img class="m-2" src="images/instagram-footer.svg" alt="Follow us on Instagram" width="26">
+					</a>
+				  </li>
+				  <li>
+					<a href="https://www.tiktok.com/@lineup_brand" target="_blank">
+					  <img class="m-2" src="images/tiktok-footer.svg" alt="Follow us on TikTok" width="26">
+					</a>
+				  </li>
+				</ul>
+			  </div>
+			</div>
+			<p>© 2024 LineUp</p>
+		  </div>
 </footer>
   </body>
 </html>
