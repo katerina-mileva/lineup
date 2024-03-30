@@ -178,6 +178,8 @@ footer a:hover {
 	visibility: visible;
 }
 
+
+/*hero section customization using overriding the bootstrap css */
 .header {
 	background-image: url("../images/landing-page/venues-background.jpg");
 	height: 750px;
@@ -192,18 +194,19 @@ footer a:hover {
 	border-radius: 0px;
 }
 
+.hero-section-content{
+	margin-left: 100px;
+	margin-top: 160px;
+	margin-bottom: 160px;
+}
+/*venues customization using overriding the bootstrap css */
 .section-background {
 	background-image: url("../images/landing-page/hero-section-backdrop.jpg");
-	background-size:cover;
-	border-radius: 20px;
+	background-size: cover;
 }
 
 .icon-margin{
 	margin-bottom: 10px;
 }
 
-.hero-section-content{
-	margin-left: 100px;
-	margin-top: 160px;
-	margin-bottom: 160px;
-}
+
