@@ -7,6 +7,7 @@
 body {
 	font-family: "Nunito", sans-serif !important;
   	background-color: #330c3d;
+	color: #f9f8f1;
 }
 
 .aclonica-h3 {
@@ -83,7 +84,7 @@ footer a:hover {
 }
 
 .red-background {
-	background: #df3838;
+	background: #df3838 !important;
 }
 
 .lilac-background {
@@ -100,7 +101,7 @@ footer a:hover {
 }
 
 .card:hover {
-	transform: scale(1.15)
+	transform: scale(1.05);
 }
 
 .card-body{
@@ -269,7 +270,7 @@ Hello, chat! I'm using Bootstrap to create my website. I want to have an image o
 	box-shadow: 10px 10px 10px black;
 }
 
-.rock-group-card {
-	background-color: #000000;
-	border-radius: 20px;
+.rock-group-card:hover {
+	scale: none !important;
 }
+
