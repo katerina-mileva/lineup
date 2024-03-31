@@ -110,19 +110,15 @@ footer a:hover {
 	
 }
 
-/*I used a YouTube tutorial to help me center the text in the Hero section: https://www.youtube.com/watch?v=DGDYRQe4FXA*/
-.carousel-caption {
-	transform: translate(-11%);
-	bottom: initial;
-	top: 30%;
-}
-
 /*button customization using overriding the bootstrap css */
 .btn-primary {
 	background-color: #df3838;
 	border-color: #df3838;
 	color: #f9f8f1;
-	border-radius: 20px
+	border-radius: 20px;
+	padding-left: 10px;
+	padding-right: 10px;
+	
 }
 
 .btn-primary:hover {
@@ -130,6 +126,25 @@ footer a:hover {
 	border-color: #c09fc9;
 	color: #330c3d;
 	border-radius: 20px
+}
+
+.btn-secondary {
+	background-color: #330c3d;
+	border-color: #f9f8f1;
+	color: #f9f8f1;
+	border-radius: 20px;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+.btn-secondary:hover{
+	background-color: #330c3d;
+	border-color: #f9f8f1;
+	color: #f9f8f1;
+	border-radius: 20px;
+	padding-left: 10px;
+	padding-right: 10px;
+	font-weight: bold;
 }
 
 /*navbar customization using overriding the bootstrap css */
@@ -159,6 +174,7 @@ footer a:hover {
 .nav-link:hover, .nav-link.active{
 	color: #330c3d;
 	transform: scale(1.15);
+	font-weight: bold;
 }
 .nav-link:before{
 	content:"";
