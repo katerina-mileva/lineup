@@ -26,6 +26,10 @@ body {
 .white-text {
 	color: #f9f8f1;
 }
+
+.purple-text {
+	color: #330c3d;
+}
 /* Changing the background colour for the header */
 
 header {
@@ -198,16 +202,12 @@ footer a:hover {
 
 
 /*hero section customization using overriding the bootstrap css */
-.header {
-	background-image: url("../images/landing-page/venues-background.jpg");
-	background-position: center;
-	background-size: cover;
-}
-
 .hero-section-background {
-	background-image: url("../images/landing-page/venues-background.jpg");
+	background-image: url("../images/landing-page/hero-section.jpg");
 	background-size: cover;
 	border-radius: 0px;
+	background-position: left;
+	background-blend-mode: soft-light;
 }
 
 .hero-section-content{
@@ -230,19 +230,16 @@ footer a:hover {
 	text-decoration: none;
 }
 
+/*Values section customization using overriding the bootstrap css */
 .values-card-margin{
-	margin-left: 200px;
-	margin-right: 200px;
+	margin-left: 400px;
+	margin-right: 400px;
 }
 
 .carousel-control-prev-icon {
-    color: #fff;
-	color: #f9f8f1;
 	background-size: 70px;
 }
 
 .carousel-control-next-icon {
-    color: #fff;
-	color: #f9f8f1;
 	background-size: 70px;
 }
