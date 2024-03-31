@@ -254,6 +254,14 @@ footer a:hover {
 	border-radius: 20px;
 }
 
+.masthead-2 {
+	background-image: url("../images/venue-page/ziggo-dome.jpg");
+	background-size: cover;
+	min-height: 50vh;
+	min-width: 50vh;
+	position: relative;
+	border-radius: 20px;
+}
 /*To make sure I get the settings of the overlay correct I used ChatGpt with the following prompt:
 Hello, chat! I'm using Bootstrap to create my website. I want to have an image on one of the pages that has an overlay text that is justified at the top left and the text is aligned left. Can you help me by providing the code for that. However, I applied some changes to customize it to our aesthetic.*/
 .overlay {

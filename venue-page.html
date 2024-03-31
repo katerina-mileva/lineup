@@ -13,7 +13,7 @@
     <!-- Bootstrap Javascript -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
 
-    <title>PRJ4 Base Group Template &mdash; Cards UX</title>
+    <title>Ziggo Dome</title>
 
     <!-- Google Analytics code goes just below here (check PRJ4 Guide for details) -->
 
@@ -23,36 +23,25 @@
   <body class="h-100 d-flex flex-column">
 
     <!-- Navigation bar, adapted from https://getbootstrap.com/docs/5.1/components/navbar/ -->
-    <nav class="navbar navbar-expand-lg navbar-light">
-      <div class="container-fluid">
-        <a class="navbar-brand" href="#">
-          <img src="images/2gether-transparent.png" width="40" alt="Breda University of Applied Sciences">
+	 <div class="container col-12">
+	  <nav class="navbar navbar-expand-lg lilac-background fixed-top col-lg-10.5 col-xs-12">
+      <div class="container">
+        <a class="navbar-brand" href="index.html">
+          <img src="images/logo-header.png" alt="LineUp" width="100" class="nav-link">
         </a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
             <li class="nav-item">
-              <a class="nav-link" href="index.html">Home</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="example.html">Example</a>
+              <a class="nav-link" href="example.html">Community</a>
             </li>
             <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle active" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                UX Patterns
-              </a>
-              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <li><a class="dropdown-item" href="hero.html">Hero Section</a></li>
-                <li><a class="dropdown-item" href="carousel.html">Carousel</a></li>
-                <li><hr class="dropdown-divider"></li>
-                <li><a class="dropdown-item" href="two-columns.html">Two-column Layout</a></li>
-                <li><a class="dropdown-item active" aria-current="page" href="cards.html">Cards</a></li>
-              </ul>
+              <a class="nav-link" href="concerts.html">Concerts</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="https://buas-media-interactive.github.io/prj4-guide/" target="_blank">PRJ4 Guide</a>
+              <a class="nav-link" href="venues.html" target="_blank">Venues</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="corporate.html">Corporate</a>
@@ -60,125 +49,140 @@
           </ul>
         </div>
       </div>
-    </nav>
+  </nav>
+</div>
     <!-- End of navigation bar -->
+	  <br>
+	  <br>
+	  <br>
+	  <br>
+	  <br>
+	  <br>
 
-    <section class="container my-4">
-      <div class="border-start border-primary border-5 p-2 bg-primary bg-opacity-10 rounded">
-        <p>This is an example that uses two features of Bootstrap:</p>
-        <ul>
-          <li>
-            <a href="https://getbootstrap.com/docs/5.1/layout/grid/" target="_blank">The responsive grid</a>
-          </li>
-          <li>
-            <a href="https://getbootstrap.com/docs/5.1/components/card/" target="_blank">Cards</a>
-          </li>
-        </ul>
-      </div>
-    </section>
 
-    <!-- A grid with cards
+
+    <!-- A grid with 2 columns
       Learn about grids at: https://getbootstrap.com/docs/5.1/layout/grid/
-      Learn about cards at: https://getbootstrap.com/docs/5.1/components/card/
     -->
-    <main class="container my-4">
-      <div class="row g-3 justify-content-evenly">
+    <main class="container">
+		<div class="masthead-2">
+			<div class="overlay d-flex col-12">
+				<h1 class="aclonica-h3">Ziggo Dome</h1>
+			</div>
+		</div>
+		
+		<br>
+		<br>
+		
+      <div class="row justify-content-start">
+        <!-- Column #1 -->
+        
 
-        <!-- Card #1 -->
-        <div class="col-sm-6 col-lg-4 col-xl-3">
-          <div class="card shadow h-100">
-            <img class="img-fluid" src="images/placeholder.png" alt="Placeholder Image">
-            <div class="card-body">
-              <h5 class="card-title">Card #1</h5>
-              <p class="card-text">Sed ut perspiciatis, unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam eaque ipsa, quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt, explicabo.</p>
-            </div>
-            <div class="card-footer p-2 text-end">
-              <a href="#" class="btn btn-primary">Learn more</a>
-            </div>
-          </div>
-        </div>
+        <!-- Column #2 -->
+        <div class="col-sm-12 col-xl-6 col-xxl-6">
+			  <div class="card mb-3 " style="max-width: 540px;">
+				  <h4 class="aclonica-h3 m-3 lilac-text">NOT allowed items:</h4>
+				  <div class="row g-0">
 
-        <!-- Card #2 -->
-        <div class="col-sm-6 col-lg-4 col-xl-3">
-          <div class="card shadow h-100">
-            <img class="img-fluid" src="images/placeholder.png" alt="Placeholder Image">
-            <div class="card-body">
-              <h5 class="card-title">Card #2</h5>
-              <p class="card-text">Nemo enim ipsam voluptatem, quia voluptas sit, aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos, qui ratione voluptatem sequi nesciunt, neque porro quisquam est, qui dolorem ipsum.</p>
-            </div>
-            <div class="card-footer p-2 text-end">
-              <a href="#" class="btn btn-primary">Learn more</a>
-            </div>
-          </div>
-        </div>
+					<div class="col-lg-12 col-md-6 col-12">
+						<ul class="white-text m-3">
+							<li>Weapons/firearms</li>
+							<li>Illegal drugs or substances</li>
+							<li>Outside food and beverages</li>
+							<li>Glass bottles or containers</li>
+							<li>Alcohol (sometimes, depending on the venue)</li>
+							<li>Professional recording equipment (audio or video)</li>
+							<li>PLaser pointers</li>
+							<li>Aerosol cans or sprays</li>
+							<li>Large bags or backpacks</li>
+							<li>Selfie sticks or camera tripods</li>
+							<li>Drones</li>
+							<li>Musical instruments (unless pre-approved for a specific event)</li>
+							<li>Pets (excluding service animals)</li>
+							<li>Sticks or poles (such as flagpoles)</li>
+							<li>Fireworks or explosives</li>
+							<li>Folding chairs or stools</li>
+							<li>Strollers </li>
+							<li>Inflatable items (such as beach balls)</li>
+							<li>Masks or face coverings that obscure identity</li>
+							<li>Any item deemed a security risk by venue staff or security personnel</li>
+						</ul>
 
-        <!-- Card #3 -->
-        <div class="col-sm-6 col-lg-4 col-xl-3">
-          <div class="card shadow h-100">
-            <img class="img-fluid" src="images/placeholder.png" alt="Placeholder Image">
-            <div class="card-body">
-              <h5 class="card-title">Card #3</h5>
-              <p class="card-text">Sed ut perspiciatis, unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam eaque ipsa, quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt, explicabo.</p>
-            </div>
-            <div class="card-footer p-2 text-end">
-              <a href="#" class="btn btn-primary">Learn more</a>
-            </div>
-          </div>
-        </div>
+				    </div>
+				</div>
+		  </div>
+		</div>
 
-        <!-- Card #4 -->
-        <div class="col-sm-6 col-lg-4 col-xl-3">
-          <div class="card shadow h-100">
-            <img class="img-fluid" src="images/placeholder.png" alt="Placeholder Image">
-            <div class="card-body">
-              <h5 class="card-title">Card #4</h5>
-              <p class="card-text">Nemo enim ipsam voluptatem, quia voluptas sit, aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos, qui ratione voluptatem sequi nesciunt, neque porro quisquam est, qui dolorem ipsum.</p>
-            </div>
-            <div class="card-footer p-2 text-end">
-              <a href="#" class="btn btn-primary">Learn more</a>
-            </div>
-          </div>
-        </div>
+			<div class="col-sm-12 col-xl-6 col-xxl-6">
+			  <div class="card mb-3 red-background" style="max-width: 540px;">
+				  <h4 class="aclonica-h3 m-3 purple-text">Upcoming Events</h4>
+				  <div class="row g-0">
+					<div class="col-lg-4 col-md-4 col-4 m-3">
+					  <img src="images/venue-page/june-9.svg" class="img-fluid rounded-start" alt="date custom icon for June 9th">
+					</div>
+					<div class="col-lg-6 col-md-6 col-6">
+					  <div class="card-body bg-black red-background">
+						<h5 class="card-title white-text aclonica-h3">Greta van Fleet<strong>&nbsp; </strong></h5>
+						<div class="row justify-content-between">
+							<div class="col-12">
+						<p><small class="text-italic"><em>248people going</em></small></p>
+						  </div>
+						</div>
+							<div class="row col-lg-6 justify-content-end">
+								<button class="btn-primary btn-sm">I'm Going</button>
+							</div>
+					  </div>
+					</div>
+			    </div>
 
-        <!-- Card #5 -->
-        <div class="col-sm-6 col-lg-4 col-xl-3">
-          <div class="card shadow h-100">
-            <img class="img-fluid" src="images/placeholder.png" alt="Placeholder Image">
-            <div class="card-body">
-              <h5 class="card-title">Card #5</h5>
-              <p class="card-text">Sed ut perspiciatis, unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam eaque ipsa, quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt, explicabo.</p>
-            </div>
-            <div class="card-footer p-2 text-end">
-              <a href="#" class="btn btn-primary">Learn more</a>
-            </div>
-          </div>
-        </div>
 
-        <!-- Card #6 -->
-        <div class="col-sm-6 col-lg-4 col-xl-3">
-          <div class="card shadow h-100">
-            <img class="img-fluid" src="images/placeholder.png" alt="Placeholder Image">
-            <div class="card-body">
-              <h5 class="card-title">Card #6</h5>
-              <p class="card-text">Nemo enim ipsam voluptatem, quia voluptas sit, aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos, qui ratione voluptatem sequi nesciunt, neque porro quisquam est, qui dolorem ipsum.</p>
-            </div>
-            <div class="card-footer p-2 text-end">
-              <a href="#" class="btn btn-primary">Learn more</a>
-            </div>
-          </div>
-        </div>
-
-        <!-- That was the last card -->
-
-      </div>
+		<div class="row g-0">
+			<div class="col-lg-4 col-md-4 col-4 m-3">
+			  <img src="images/venue-page/june-12.svg" class="img-fluid rounded-start" alt="date custom icon for June 12th">
+			</div>
+			<div class="col-lg-6 col-md-6 col-6">
+			  <div class="card-body bg-black red-background">
+				<h5 class="card-title white-text aclonica-h3">Guns N Roses</h5>
+				<div class="row justify-content-between">
+					<div class="col-12">
+				<p><small class="text-italic"><em>436 people going</em></small></p>
+				  </div>
+			    </div>
+					<div class="row col-lg-6 justify-content-end">
+						<button class="btn-primary btn-sm">I'm Going</button>
+					</div>
+			  </div>
+			</div>
+		  </div>
+			<div class="row g-0">
+			<div class="col-lg-4 col-md-4 col-4 m-3">
+			  <img src="images/venue-page/june-16.svg" class="img-fluid rounded-start" alt="date custom icon for June 16th">
+			</div>
+			<div class="col-lg-6 col-md-6 col-6">
+			  <div class="card-body rock-group-card bg-black red-background">
+				<h5 class="card-title white-text aclonica-h3">Metallica</h5>
+				<div class="row justify-content-between">
+					<div class="col-12">
+				<p><small class="text-italic"><em>514 people going</em></small></p>
+					</div>
+			    </div>
+					<div class="row col-lg-6 justify-content-end">
+						<button class="btn-primary btn-sm">I'm Going</button>
+					</div>
+			  </div>
+			</div>
+		  </div>
+		</div>
+	</div>
+ </div>
     </main>
-    <!-- End of the grid with cards -->
+    <!-- End of the grid with columns -->
 
     <!-- A footer with socials -->
     <footer class="shadow-lg mt-auto py-4 bg-body">
       <div class="container d-flex justify-content-between align-items-center">
         <p>
-          © 2020&ndash;2024 &mdash; Breda University of Applied Sciences
+          © 2020&ndash;2021 &mdash; Breda University of Applied Sciences
         </p>
         <ul class="list-unstyled d-flex align-items-center opacity-75">
           <li>
