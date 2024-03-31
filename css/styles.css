@@ -92,7 +92,7 @@ footer a:hover {
 
 
 .card {
-	background: none;
+	background: #000000;
 	box-shadow: 10px 10px 10px black;
 	border-bottom-left-radius: 20px;
 	border-bottom-right-radius: 20px;
@@ -247,24 +247,29 @@ footer a:hover {
 .masthead {
 	background-image: url("../images/rock-group-page/guns-n-roses.jpg");
 	background-size: cover;
-	min-height: 100vh;
+	min-height: 50vh;
+	min-width: 50vh;
 	position: relative;
-	color: #f9f8f1;
 	border-radius: 20px;
 }
 
 /*To make sure I get the settings of the overlay correct I used ChatGpt with the following prompt:
 Hello, chat! I'm using Bootstrap to create my website. I want to have an image on one of the pages that has an overlay text that is justified at the top left and the text is aligned left. Can you help me by providing the code for that. However, I applied some changes to customize it to our aesthetic.*/
 .overlay {
-position: absolute;
-      top: 5;
-      left: 5;
-      width: 100%;
-      height: 100%;
-      background-color: rgba(0, 0, 0, 0.5); /* Adjust opacity as needed */
-      color: white;
-      padding: 30px;
-      box-sizing: border-box;
+	position: absolute;
+    top: 5;
+    left: 5;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* Adjust opacity as needed */
+    color: white;
+    padding: 30px;
+    box-sizing: border-box;
 	border-radius: 20px;
 	box-shadow: 10px 10px 10px black;
+}
+
+.rock-group-card {
+	background-color: #000000;
+	border-radius: 20px;
 }
