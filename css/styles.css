@@ -158,14 +158,12 @@ footer a:hover {
 	margin-top: 20px;
 	margin-bottom: 20px;
 	border-radius: 40px;
-	margin-left: 6rem;
-	margin-right: 6rem;
+	margin-left: 3rem;
+	margin-right: 3rem;
 	
 }
 .navbar-expand-lg{
 	box-shadow: 10px 10px 10px black;
-	margin-left: 90px;
-	margin-right: 90px;
 }
 
 .navbar-toggler{
