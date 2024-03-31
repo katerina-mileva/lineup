@@ -208,8 +208,6 @@ footer a:hover {
 /*hero section customization using overriding the bootstrap css */
 .header {
 	background-image: url("../images/landing-page/venues-background.jpg");
-	height: 750px;
-	width: 1918px;
 	background-position: center;
 	background-size: cover;
 }
@@ -218,6 +216,7 @@ footer a:hover {
 	background-image: url("../images/landing-page/venues-background.jpg");
 	background-size:cover;
 	border-radius: 0px;
+	animation: ease-in;
 }
 
 .hero-section-content{
