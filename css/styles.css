@@ -297,3 +297,13 @@ Hello, chat! I'm using Bootstrap to create my website. I want to have an image o
 	border-radius: 20px;
 }
 
+.list-group-item:active{
+	background-color: #df3838 !important;
+	color: #f9f8f1 !important;
+}
+
+.list-group-item-action: {
+	background-color: #df3838 !important;
+	color: #f9f8f1 !important;
+}
+
