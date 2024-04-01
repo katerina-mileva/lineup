@@ -222,6 +222,14 @@ footer a:hover {
 	background-size: cover;
 }
 
+.values-section {
+	background-image: url("../images/landing-page/venues-background.jpg");
+	background-size: cover;
+	min-height: 50vh;
+	min-width: 25vh;
+	position: relative;
+}
+
 .icon-margin{
 	margin-bottom: 10px;
 }
