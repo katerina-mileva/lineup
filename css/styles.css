@@ -232,10 +232,6 @@ footer a:hover {
 }
 
 /*Values section customization using overriding the bootstrap css */
-.values-card-margin{
-	margin-left: 400px;
-	margin-right: 400px;
-}
 
 .carousel-control-prev-icon {
 	background-size: 70px;
