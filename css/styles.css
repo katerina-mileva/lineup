@@ -286,3 +286,14 @@ Hello, chat! I'm using Bootstrap to create my website. I want to have an image o
 	scale: none !important;
 }
 
+.section-heading {
+	padding: 1rem;
+	border-radius: 20px;
+}
+
+.comment-background {
+	padding: 1rem;
+	margin-left: 1rem;
+	border-radius: 20px;
+}
+
