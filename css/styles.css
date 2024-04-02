@@ -149,6 +149,23 @@ footer a:hover {
 	font-weight: bold;
 }
 
+.btn-info {
+	background-color: #330c3d;
+	border-color: none;
+	color: #f9f8f1;
+	border-radius: 20px;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+.btn-info:hover {
+	background-color: #c09fc9;
+	color: #330c3d;
+	border-radius: 20px;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
 /*navbar customization using overriding the bootstrap css */
 .navbar{
 	background-color: #c09fc9;
@@ -302,8 +319,4 @@ Hello, chat! I'm using Bootstrap to create my website. I want to have an image o
 	color: #f9f8f1 !important;
 }
 
-.list-group-item-action: {
-	background-color: #df3838 !important;
-	color: #f9f8f1 !important;
-}
 
