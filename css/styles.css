@@ -314,9 +314,21 @@ Hello, chat! I'm using Bootstrap to create my website. I want to have an image o
 	border-radius: 20px;
 }
 
-.list-group-item:active{
-	background-color: #df3838 !important;
+.list-group-item-action:active {
+	background-color: #330c3d!important;
+	border-color: #330c3d!important;
 	color: #f9f8f1 !important;
+}
+
+.list-group-item {
+	background-color: #df3838!important;
+	color: #f9f8f1!important;
+}
+
+.list-group-item:hover {
+	background-color: #f9f8f1!important;
+	color: #df3838!important;
+	border-color: #df3838!important;
 }
 
 
