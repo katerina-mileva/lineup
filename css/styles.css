@@ -259,9 +259,9 @@ footer a:hover {
 }
 
 .masthead-2 {
-	background-image: url("../images/venue-page/ziggo-dome.jpg");
+	background-image: url("../images/venue-page/johan-cruyff-arena.jpg");
 	background-size: cover;
-	min-height: 50vh;
+	min-height: 60vh;
 	min-width: 50vh;
 	position: relative;
 	border-radius: 20px;
