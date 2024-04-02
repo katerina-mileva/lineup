@@ -151,7 +151,7 @@ footer a:hover {
 
 .btn-info {
 	background-color: #330c3d;
-	border-color: none;
+	border-color: #330c3d;
 	color: #f9f8f1;
 	border-radius: 20px;
 	padding-left: 10px;

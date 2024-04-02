@@ -65,7 +65,7 @@
         <div class="col-md-4 col-lg-4 col-10 ma-start py-5 hero-section-content" align="left" position="start">
           <h1 class="aclonica-h3 lilac-text" align="left">You don’t have to rock and roll alone anymore!</h1>
 			<p align="left">Everyone has been through the struggle of finding people to go to concerts with. In LineUp you can connect with other others who will go to the same concert.</p>
-           <button class="btn btn-primary me-md-2" type="button">Join the Community</button>
+           	<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">Go to Community</button>
         </div>
       </div>
     </header>
@@ -158,7 +158,7 @@
 		   </div>
 		   <div class="col-lg-4 col-md-2 col-5">
 			   <div class="d-grid gap-2 d-md-flex justify-content-md-end">
-				   <button class="btn btn-primary" type="button">See More</button>
+				   <a href="venues.html" class="btn btn-primary" role="button">See More</a>
 			   </div>
 		   </div>
 	  </div>
@@ -297,7 +297,24 @@
 		  <br>
 		<br>
 	  </div>
-	  
+	  <!-- Modal -->
+      <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header red-background">
+              <h5 class="modal-title aclonica-h3" id="exampleModalLabel">You're not registered</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body bg-black">
+                <p>To be able to respond to events make sure to set up a profile at LineUp. make sure not to miss the opportunity to share where and when you are rock and rolling next!</p>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Sign Up</button>
+              <a href="concerts.html" class="btn btn-info" role="button">See More</a>
+            </div>
+          </div>
+        </div>
+      </div>
 	  
 	  
 	 <!-- End of Section 4 Our Values-->
