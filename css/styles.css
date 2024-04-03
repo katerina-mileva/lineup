@@ -318,29 +318,34 @@ Hello, chat! I'm using Bootstrap to create my website. I want to have an image o
 	background-color: #330c3d!important;
 	border-color: #330c3d!important;
 	color: #f9f8f1 !important;
+	text-decoration: underline!important;
 }
 
 .list-group-item {
-	background-color: #df3838!important;
-	color: #f9f8f1!important;
+	background-color:#c09cc9!important;
+	color:#330c3d!important;
+	margin-top: 5px!important;
+	border-radius: 20px!important;
 }
 
 .list-group-item:hover {
-	background-color: #f9f8f1!important;
-	color: #df3838!important;
+	background-color: #df3838!important;
+	color: #f9f8f1!important;
 	border-color: #df3838!important;
-	border-radius: 20px!important;
 }
 
 .accordion-button {
 	border-radius: 20px!important;
+	margin-bottom: 10px!important;
 }
 
-
+.accordion-icon {
+	color: #f9f8f1!important;
+	background-color: #f9f8f1!important;
+}
 
 .accordion-item {
 	background-color: #000000!important;
 	border-color: #000000!important;
-	padding: 20px;
-	border-radius: 20px!important;
+
 }
