@@ -166,6 +166,22 @@ footer a:hover {
 	padding-right: 10px;
 }
 
+.btn-custom{
+	background-color: #f9f8f1;
+	color: #330c3d;
+	border-radius: 20px;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+.btn-custom:hover{
+	background-color: #c09fc9;
+	color: #f9f8f1;
+	border-radius: 20px;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
 /*navbar customization using overriding the bootstrap css */
 .navbar{
 	background-color: #c09fc9;
@@ -314,16 +330,16 @@ Hello, chat! I'm using Bootstrap to create my website. I want to have an image o
 	border-radius: 20px;
 }
 
-.list-group-item-action:active {
-	background-color: #330c3d!important;
-	border-color: #330c3d!important;
+.list-group-item-action.active {
+	background-color: #df3838!important;
+	border-color: #df3838!important;
 	color: #f9f8f1 !important;
 	text-decoration: underline!important;
 }
 
 .list-group-item {
-	background-color:#c09cc9!important;
-	color:#330c3d!important;
+	background-color:#330c3d!important;
+	color:#c09cc9!important;
 	margin-top: 5px!important;
 	border-radius: 20px!important;
 }
