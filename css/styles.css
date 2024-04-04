@@ -244,11 +244,6 @@ footer a:hover {
 	background-blend-mode: soft-light;
 }
 
-.hero-section-content{
-	margin-left: 100px;
-	margin-top: 160px;
-	margin-bottom: 160px;
-}
 /*venues customization using overriding the bootstrap css */
 .section-background {
 	background-image: url("../images/landing-page/hero-section-backdrop.jpg");
@@ -364,4 +359,5 @@ Hello, chat! I'm using Bootstrap to create my website. I want to have an image o
 	background-color: #000000!important;
 	border-color: #000000!important;
 
+}.coll-md-8 {
 }
