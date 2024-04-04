@@ -90,7 +90,7 @@
           <h2 class="aclonica-h3 red-text" id="general">General Information</h2>
           <p class="white-text">
             This branded website is publicly available at
-            <a href="https://buas-media-interactive.github.io/">buas-media-interactive.github.io/my-website</a>
+            <a href="https://katerina-mileva.github.io/lineup/index.html">buas-media-interactive.github.io/my-website</a>
             <em>(please change text <strong>and</strong> hyperlink destination)</em>
           </p>
           <p class="white-text">
@@ -108,7 +108,7 @@
           <p class="white-text">Please clarify here the match between students and pieces of content. Make sure that you provide a <u>link</u> to the correct page within the website</p>
           <table class="table table-bordered table-striped">
             <thead>
-              <tr class="bg-white">
+              <tr class="lilac-background">
                 <th scope="col">#</th>
                 <th scope="col">Student ID</th>
                 <th scope="col">Value</th>
@@ -193,10 +193,82 @@
 				<li><h1 class="aclonica-h3">Heading 1</h1></li>
 				<li><h2 class="aclonica-h3">Heading 2</h2></li>
 				<li><h4 class="aclonica-h3">Heading 4</h4></li>
-			</ul>
+		  </ul>
 		<p>For the headings fonts we used "Aclonica" font from Google Fonts. Being a sans-serif font it fits a stronger asthetic of the hard rock music and it is also very good in terms of readability. However, its special endings of letters especially obvious in the letter "n" resemble hard rock logos of popular groups. Overall it provides a balance between being strong, useful, and in line with the hard rock music aesthetic. Since we used the font sizes from Bootstrap we decided for the sake of good hierarchy to use "H4" instead of "H3".</p>
 		<p>For the Body Text of the website we utilized a qidely popular font in web design again provided by Google Fonts, namely "Nunito" in its "Regular" variation. It's a rule of thumb to use a sans-serif font for the body text in design inteded for screens due to the importance of readability. You can see it demonstrated throughout in this current text.</p>
             <li>User interface patterns (e.g. grids, carousels, menu organizations etc.)</li>
+			<p>The base for the alignment in the website uses the Bootstrap 12-column grid. However to keep consistency we utilized mainly 3 and 4 even columns.</p>
+			<p>In terms of UI elements we used a lot of cards from Bootstrap that were just customized to fit our style guide.</p>
+			<div class="col-6 col-md-6 col-lg-3">
+			  <div class="card">
+				  <a class="custom-links" href="rock-group-page.html">
+					<img src="images/landing-page/greta-van-fleet.jpg" class="card-img-top" alt="AI generated image of Greta van Fleet">
+					  <div class="card-body red-background">
+						<h5 class="card-text white-text aclonica-h3 ">Greta van Fleet</h5>
+					  </div>					
+				  </a>
+			  </div>
+		  </div>
+			<br>
+			<div class="card mb-3">
+			 <a class="custom-links" href="venue-page.html">
+				  <img src="images/venues-page/ziggo-dome.jpg" class="card-img-top" alt="Fake Image Ziggo Dome">
+				  <div class="card-body">
+					<h5 class="card-title text-white aclonica-h3">Ziggo Dome</h5>
+				  </div>
+			  </a>
+			</div>
+			<br>
+			<p>We also utilized a Carrousel on the landing page for the values since they have longer pieces of text and that way it is distributed separately. If they were all next to each other they would have looked too overwhelmingly long.</p>
+				  <div class="container col-lg-12 col-md-12 col-12"> 
+		 <div class="row col-lg-12 col-md-12 col-12">
+			  <div id="carouselExampleControlsNoTouching" class="carousel slide" data-bs-touch="false" data-bs-interval="false">
+				  <div class="carousel-inner col-12 col-md-12 col-12">
+					<div class="carousel-item active">
+					  <div class="card mx-auto col-10 col-md-12 col-lg-5">
+						  <div class="card-body col-12 col-md-12 col-12">
+							  <h4 class="card-title purple-text aclonica-h3">Community</h4>
+							<p class="card-text white-text">We are more than just a collection of individuals – we are a tight-knit community bound by our shared passion for hard rock music. Building strong connections among our fans, we foster a close community where hard rock fans can come together to share experiences, forge friendships, and celebrate their shared passion for hard rock music. This is an environment where every voice is heard, and every contribution is valued. Here, you are not just a fan – you are an integral part of our thriving community, and together, we are unstoppable.</p>
+						  </div>
+						</div>
+					</div>
+					<div class="carousel-item col-12 col-md-12 col-12">
+					  	<div class="card mx-auto col-10 col-md-12 col-lg-5">
+						  <div class="card-body col-12 col-md-12 col-12">
+							  <h4 class="card-title purple-text aclonica-h3">Expression</h4>
+							<p class="card-text white-text">Through the universal language of hard rock, we connect with others who share our passion and share our stories with the world. Encouraging creativity and self-expression, we provide a platform for hard rock fans to meet others that share their passion for music and share their stories together. This genre is known for honest lyrics and messages and this is your place to write your own story.</p>
+						  </div>
+						</div>
+					</div>
+					<div class="carousel-item">
+					  	<div class="card mx-auto col-10 col-md-12 col-lg-5">
+						  <div class="card-body col-12 col-md-12 col-12">
+							  <h4 class="card-title purple-text aclonica-h3">Freedom</h4>
+							<p class="card-text white-text">Freedom lies at the heart of everything we do. We celebrate the freedom to express oneself authentically without restrictions. Whether you're headbanging to classic anthems or discovering new sounds that push the boundaries of the genre, we embrace the freedom to explore and express your unique identity as a hard rock fan. Let’s embrace individuality!</p>
+						  </div>
+						</div>
+					</div>
+					<div class="carousel-item">
+                      <div class="card mx-auto col-10 col-md-12 col-lg-5">
+                        <div class="card-body col-12 col-md-12 col-12">
+                            <h4 class="card-title purple-text aclonica-h3">Belonging</h4>
+                          <p class="card-text white-text">Belonging is what brings us together. In a world that often feels disconnected, we find peace in the sense of belonging that comes from being part of something greater than ourselves. We create a space where hard rock fans feel understood, valued, and connected to a larger community of like-minded people. Whether you're attending a sold-out concert or engaging in lively discussions on our online forums, we create spaces where you can find meaningful connections and develop lasting friendships with fellow fans who understand and support you.</p>
+                        </div>
+                      </div>
+					</div>
+				  </div>
+				  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControlsNoTouching" data-bs-slide="prev">
+					<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+					<span class="visually-hidden">Previous</span>
+				  </button>
+				  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControlsNoTouching" data-bs-slide="next">
+					<span class="carousel-control-next-icon" aria-hidden="true">&nbsp;</span>
+					<span class="visually-hidden">Next</span>
+				  </button>
+			 </div>
+		  </div>
+		  </div>
+			<p>We also used an accordion for the Threads in the community page so that the commments can be hidden and first users can see the list of current topics and see the comments only if they wish to. That helps presenting the information in parts and also navigating through the existing conversations.</p>
             <li>The structure of the <strong>navigation and content</strong> (e.g. how content units are distributed across pages)</li>
             <li>All these elements must be justified by referring to the theory <strong>and/or vocabulary</strong> of design</li>
             <li>Please relate these elements to other units, for example:
