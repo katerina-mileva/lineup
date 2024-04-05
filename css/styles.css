@@ -206,7 +206,6 @@ footer a:hover {
 .nav-link {
 	color: #330c3d;
 	position: relative;
-	background-color: #c09fc9;
 	margin-left: 10px;
 	margin-right: 10px;
 	padding: 10px;	
@@ -232,6 +231,11 @@ footer a:hover {
 .nav-link:hover::before, .nav-link:active::before {
 	width: 100%;
 	visibility: visible;
+	color: #330c3d;
+}
+
+.nav-link:active::after{
+	color: #330c3d;
 }
 
 
@@ -242,6 +246,8 @@ footer a:hover {
 	border-radius: 0px;
 	background-position: left;
 	background-blend-mode: soft-light;
+	width: 100%;
+	height: auto;
 }
 
 /*venues customization using overriding the bootstrap css */
